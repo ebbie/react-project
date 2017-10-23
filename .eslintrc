@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "max-len": [1, 80, 2, {"ignoreComments": true}],
+    "prop-types": [2]
+  },
+  "extends": "airbnb"
+}
